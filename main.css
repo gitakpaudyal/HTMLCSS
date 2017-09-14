@@ -1,0 +1,16 @@
+/*Learning CSS is not as easy as i thought but hey i'm enjoying it :)*/
+
+p {
+    color:red;
+    font-size: 25px;
+    font-family: Tahoma;
+    font-weight: 900;
+}
+
+h1{
+    color: blue;
+    background-color: yellow;
+    padding: 100px;
+    border: 10px dotted #FF00B7;
+    margin: 500px
+}
