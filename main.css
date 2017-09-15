@@ -11,23 +11,56 @@ h1{
     color: blue;
 }
 
+.clear {
+	content: "";
+	clear: both;
+	display: block;
+}
+
 /*div is block type element*/
 .header{
 background-color:skyblue;
 align-content: center;
 text-align: center;
 border:200px;
-width: 1425px;
+width: 100%;
 position: relative;
 }
 
 .todolist {
+
     background-color: green;
     text-decoration: underline;
+	text-align: center;
     align-content: space-around;
     border: 30px 20px 30px 40px;
     padding: 100px;
-    position: relative;
-    width: 100px
+   /*position: relative;*/
+    width: 100px;
+	float: left;
 
 }
+
+.clock {
+	background-color: green;
+    text-decoration: underline;
+	text-align: center;
+    align-content: space-around;
+    border: 30px 20px 30px 40px;
+    padding: 100px;
+	margin-left: 300px;
+    width: 100px;
+	float: left;
+}
+
+.workout {
+	background-color: green;
+    text-decoration: underline;
+	text-align: center;
+    align-content: space-around;
+    border: 30px 20px 30px 40px;
+    padding: 100px;
+    width: 100px;
+	float: right;
+}
+
