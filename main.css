@@ -9,22 +9,25 @@ p {
 
 h1{
     color: blue;
-    background-color: yellow;
-    padding: 100px;
-    border: 10px dotted #FF00B7;
-    margin: 50px
 }
 
 /*div is block type element*/
-div{
-background-color: red;
-border:2px;
-width: 250px;
+.header{
+background-color:skyblue;
+align-content: center;
+text-align: center;
+border:200px;
+width: 1425px;
+position: relative;
 }
-/*span is inline element*/
 
-span {
-    color: green;
+.todolist {
+    background-color: green;
     text-decoration: underline;
+    align-content: space-around;
+    border: 30px 20px 30px 40px;
+    padding: 100px;
+    position: relative;
+    width: 100px
 
 }
